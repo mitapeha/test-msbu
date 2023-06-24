@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02-logout-success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f460c7f3-340a-47a3-af68-8cd2fe31a89b</testCaseGuid>
+</TestCaseEntity>
