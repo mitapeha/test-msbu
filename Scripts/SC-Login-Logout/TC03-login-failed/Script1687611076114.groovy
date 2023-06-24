@@ -39,7 +39,7 @@ try {
     WebUI.closeBrowser()
 
     // wrong username
-    GlobalVariable.username = 'jon'
+    GlobalVariable.username = 'popo'
 	GlobalVariable.password = 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'
 
     WebUI.callTestCase(findTestCase('step-login'), [:], FailureHandling.STOP_ON_FAILURE)
