@@ -18,12 +18,11 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 try {
-	
-	// seoul facility, Apply for hospital readmission, back date, fill comment
-	
-	// get current date
-	Date date = new Date() - 1
-	visitDate = date.format("dd/MM/yyyy")
+    // seoul facility, Apply for hospital readmission, back date, fill comment
+    // get current date
+    Date date = new Date() - 1
+
+    visitDate = date.format('dd/MM/yyyy')
 
     WebUI.callTestCase(findTestCase('step-login'), [:], FailureHandling.STOP_ON_FAILURE)
 

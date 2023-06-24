@@ -18,11 +18,11 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 try {
-	
-	// get current date
-	Date date = new Date()
-	visitDate = date.format("dd/MM/yyyy")
-	
+    // get current date
+    Date date = new Date()
+
+    visitDate = date.format('dd/MM/yyyy')
+
     WebUI.callTestCase(findTestCase('step-login'), [:], FailureHandling.STOP_ON_FAILURE)
 
     WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment'), 
@@ -30,19 +30,22 @@ try {
 
     WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/make_appointment_page/textfieldVisitDate'), 
         visitDate)
-	
-	switch (program) {
-		case 'medicare':
-			healthCareProgram = 'Medicare'
-			break
-		case 'medicaid':
-			healthCareProgram = 'Medicaid'
-			break
-		case 'none':
-			healthCareProgram = 'None'
-			break
-	}
 
+    switch (program) {
+        case 'medicare':
+            healthCareProgram = 'Medicare'
+
+            break
+        case 'medicaid':
+            healthCareProgram = 'Medicaid'
+
+            break
+        case 'none':
+            healthCareProgram = 'None'
+
+            break
+    }
+    
     WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/make_appointment_page/buttonBookAppointment'))
 
     WebUI.waitForElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/appointment_confirmation_page/labelAppointmentConfirmation'), 

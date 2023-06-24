@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-Make-Appointment,Chrome 114.0.0.0,,,2023-06-24 23:20:14,2023-06-24 23:21:52,1m - 37.754s,PASSED
+,,,,,,,
+Test Cases/SC-Make-Appointment/TC02-make-appointment-failed-blank-mandatory-field,Chrome 114.0.0.0,,,2023-06-24 23:20:14,2023-06-24 23:20:30,16.083s,PASSED
+try,Chrome 114.0.0.0,,,2023-06-24 23:20:14,2023-06-24 23:20:30,15.604s,PASSED
+Finally,Chrome 114.0.0.0,,,2023-06-24 23:20:30,2023-06-24 23:20:30,0.139s,PASSED
+,,,,,,,
+Test Cases/SC-Make-Appointment/TC01-make-appointment-success-default-content,Chrome 114.0.0.0,,,2023-06-24 23:20:30,2023-06-24 23:21:26,55.750s,PASSED
+try,Chrome 114.0.0.0,,,2023-06-24 23:20:30,2023-06-24 23:21:26,55.398s,PASSED
+Finally,Chrome 114.0.0.0,,,2023-06-24 23:21:26,2023-06-24 23:21:26,0.128s,PASSED
+,,,,,,,
+Test Cases/SC-Make-Appointment/TC03-make-appointment-success-combination-content,Chrome 114.0.0.0,,,2023-06-24 23:21:26,2023-06-24 23:21:52,25.750s,PASSED
+try,Chrome 114.0.0.0,,,2023-06-24 23:21:26,2023-06-24 23:21:52,25.432s,PASSED
+Finally,Chrome 114.0.0.0,,,2023-06-24 23:21:52,2023-06-24 23:21:52,0.127s,PASSED

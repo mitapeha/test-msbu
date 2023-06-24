@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.waitForElementPresent(findTestObject('Page_CURA Healthcare Service/home_page/labelCURAHealthcareService'), 0)

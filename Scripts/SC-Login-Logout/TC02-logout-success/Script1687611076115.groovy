@@ -17,20 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('step-login'), [:], FailureHandling.STOP_ON_FAILURE)
+try {
+    WebUI.callTestCase(findTestCase('step-login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment'), 
-    'Make Appointment')
+    WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment'), 
+        'Make Appointment')
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/home_page/buttonMenuToggle'))
+    WebUI.click(findTestObject('Page_CURA Healthcare Service/home_page/buttonMenuToggle'))
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/home_page/hyperlinkLogout'))
+    WebUI.click(findTestObject('Page_CURA Healthcare Service/home_page/hyperlinkLogout'))
 
-WebUI.waitForElementPresent(findTestObject('Page_CURA Healthcare Service/home_page/labelCURAHealthcareService'), 0)
+    WebUI.waitForElementPresent(findTestObject('Page_CURA Healthcare Service/home_page/labelCURAHealthcareService'), 0)
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/home_page/buttonMenuToggle'))
+    WebUI.click(findTestObject('Page_CURA Healthcare Service/home_page/buttonMenuToggle'))
 
-WebUI.waitForElementPresent(findTestObject('Page_CURA Healthcare Service/home_page/hyperlinkLogin'), 0)
-
-WebUI.closeBrowser()
+    WebUI.waitForElementPresent(findTestObject('Page_CURA Healthcare Service/home_page/hyperlinkLogin'), 0)
+}
+finally { 
+    WebUI.closeBrowser()
+}
 

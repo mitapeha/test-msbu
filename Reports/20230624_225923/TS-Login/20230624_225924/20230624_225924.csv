@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-Login,Chrome 114.0.0.0,,,2023-06-24 22:59:38,2023-06-24 22:59:43,5.253s,ERROR
+,,,,,,,
+Test Cases/SC-Login-Logout/TC01-login-success,Chrome 114.0.0.0,,,2023-06-24 22:59:38,2023-06-24 22:59:41,3.260s,ERROR
+try,Chrome 114.0.0.0,,,2023-06-24 22:59:38,2023-06-24 22:59:41,2.819s,FAILED
+Finally,Chrome 114.0.0.0,,,2023-06-24 22:59:41,2023-06-24 22:59:41,0.146s,ERROR
+,,,,,,,
+Test Cases/SC-Login-Logout/TC03-login-failed,Chrome 114.0.0.0,,,2023-06-24 22:59:41,2023-06-24 22:59:41,0.224s,ERROR
+try,Chrome 114.0.0.0,,,2023-06-24 22:59:41,2023-06-24 22:59:41,0.001s,PASSED
+Finally,Chrome 114.0.0.0,,,2023-06-24 22:59:41,2023-06-24 22:59:41,0.010s,ERROR
+,,,,,,,
+Test Cases/SC-Login-Logout/TC02-logout-success,Chrome 114.0.0.0,,,2023-06-24 22:59:41,2023-06-24 22:59:43,1.577s,ERROR
+"callTestCase(findTestCase(""step-login""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-06-24 22:59:42,2023-06-24 22:59:43,1.398s,ERROR

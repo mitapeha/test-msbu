@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-Login-Logout,Chrome 114.0.0.0,,,2023-06-24 23:13:00,2023-06-24 23:16:01,3m - 1.110s,PASSED
+,,,,,,,
+Test Cases/SC-Login-Logout/TC01-login-success,Chrome 114.0.0.0,,,2023-06-24 23:13:00,2023-06-24 23:13:13,12.409s,PASSED
+try,Chrome 114.0.0.0,,,2023-06-24 23:13:01,2023-06-24 23:13:13,12.021s,PASSED
+Finally,Chrome 114.0.0.0,,,2023-06-24 23:13:13,2023-06-24 23:13:13,0.174s,PASSED
+,,,,,,,
+Test Cases/SC-Login-Logout/TC02-logout-success,Chrome 114.0.0.0,,,2023-06-24 23:13:13,2023-06-24 23:13:26,13.650s,PASSED
+try,Chrome 114.0.0.0,,,2023-06-24 23:13:13,2023-06-24 23:13:26,13.406s,PASSED
+Finally,Chrome 114.0.0.0,,,2023-06-24 23:13:26,2023-06-24 23:13:26,0.122s,PASSED
+,,,,,,,
+Test Cases/SC-Login-Logout/TC03-login-failed,Chrome 114.0.0.0,,,2023-06-24 23:13:26,2023-06-24 23:16:01,2m - 34.890s,PASSED
+try,Chrome 114.0.0.0,,,2023-06-24 23:13:27,2023-06-24 23:16:01,2m - 34.604s,PASSED
+Finally,Chrome 114.0.0.0,,,2023-06-24 23:16:01,2023-06-24 23:16:01,0.157s,PASSED

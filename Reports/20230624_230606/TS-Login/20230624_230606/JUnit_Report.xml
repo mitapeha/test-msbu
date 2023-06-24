@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS-Login" time="99.904" tests="3" failures="1" errors="0">
+   <testsuite name="TS-Login" tests="3" failures="1" errors="0" time="99.904" skipped="0" timestamp="2023-06-24 23:06:20" hostname="mitapitriaheni - 192.168.1.104" id="Test Suites/TS-Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mitapitriaheni/git/test-msbu/Reports/20230624_230606/TS-Login/20230624_230606"/>
+         <property name="logFiles" value="/Users/mitapitriaheni/git/test-msbu/Reports/20230624_230606/TS-Login/20230624_230606/execution0.log"/>
+         <property name="attachments" value="/Users/mitapitriaheni/git/test-msbu/Reports/20230624_230606/TS-Login/20230624_230606/1687622879454.png"/>
+         <property name="hostName" value="mitapitriaheni - 192.168.1.104"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.104"/>
+         <property name="sessionId" value="6c7b6d122be1f425e06e67530ff900bc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/SC-Login-Logout/TC01-login-success" time="16.034" classname="Test Cases/SC-Login-Logout/TC01-login-success" status="PASSED">
+         <system-out><![CDATA[2023-06-24 23:06:20 - [TEST_CASE][PASSED] - Test Cases/SC-Login-Logout/TC01-login-success: Test Cases/SC-Login-Logout/TC01-login-success
+
+2023-06-24 23:06:20 - [TEST_STEP][PASSED] - try: Object 'Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment' is present
+
+2023-06-24 23:06:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("step-login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/step-login' successfully
+
+2023-06-24 23:06:20 - [TEST_CASE][PASSED] - Test Cases/step-login: Test Cases/step-login
+
+2023-06-24 23:06:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-24 23:06:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-24 23:06:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-24 23:06:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-24 23:06:23 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-06-24 23:06:27 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-06-24 23:06:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/home_page/labelCURAHealthcareService"), 0): Object 'Object Repository/Page_CURA Healthcare Service/home_page/labelCURAHealthcareService' is present
+
+2023-06-24 23:06:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:06:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/home_page/labelCURAHealthcareService' is present
+
+2023-06-24 23:06:29 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/home_page/labelWeCareAboutYourHealth"), 0): Object 'Object Repository/Page_CURA Healthcare Service/home_page/labelWeCareAboutYourHealth' is present
+
+2023-06-24 23:06:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:06:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/home_page/labelWeCareAboutYourHealth' is present
+
+2023-06-24 23:06:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/home_page/buttonMenuToggle")): Object: 'Object Repository/Page_CURA Healthcare Service/home_page/buttonMenuToggle' is clicked on
+
+2023-06-24 23:06:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/home_page/buttonMenuToggle' is clicked on
+
+2023-06-24 23:06:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/home_page/hyperlinkLogin")): Object: 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogin' is clicked on
+
+2023-06-24 23:06:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogin' is clicked on
+
+2023-06-24 23:06:32 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/login_page/labelLogin"), 0): Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelLogin' is present
+
+2023-06-24 23:06:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:06:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelLogin' is present
+
+2023-06-24 23:06:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/login_page/labelPleaseLoginToMakeAppointment"), 0): Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelPleaseLoginToMakeAppointment' is present
+
+2023-06-24 23:06:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:06:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelPleaseLoginToMakeAppointment' is present
+
+2023-06-24 23:06:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/login_page/buttonLogin"), 0): Object 'Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin' is present
+
+2023-06-24 23:06:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:06:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin' is present
+
+2023-06-24 23:06:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/login_page/textfieldUsername"), username): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/login_page/textfieldUsername'
+
+2023-06-24 23:06:34 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/login_page/textfieldUsername'
+
+2023-06-24 23:06:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/login_page/textfieldPassword"), password): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/login_page/textfieldPassword'
+
+2023-06-24 23:06:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/login_page/textfieldPassword'
+
+2023-06-24 23:06:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin")): Object: 'Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin' is clicked on
+
+2023-06-24 23:06:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin' is clicked on
+
+2023-06-24 23:06:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment' are matched.
+
+2023-06-24 23:06:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment' are matched.
+
+2023-06-24 23:06:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/step-login' successfully
+
+2023-06-24 23:06:36 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment"), 0): Object 'Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment' is present
+
+2023-06-24 23:06:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:06:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment' is present
+
+2023-06-24 23:06:36 - [TEST_STEP][PASSED] - Finally: Browser is closed
+
+2023-06-24 23:06:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-24 23:06:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SC-Login-Logout/TC03-login-failed" time="39.976" classname="Test Cases/SC-Login-Logout/TC03-login-failed" status="PASSED">
+         <system-out><![CDATA[2023-06-24 23:06:36 - [TEST_CASE][PASSED] - Test Cases/SC-Login-Logout/TC03-login-failed: Test Cases/SC-Login-Logout/TC03-login-failed
+
+2023-06-24 23:06:36 - [TEST_STEP][PASSED] - try: Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelLoginFailed' is present
+
+2023-06-24 23:06:36 - [TEST_STEP][PASSED] - username = "": null
+
+2023-06-24 23:06:36 - [TEST_STEP][PASSED] - password = "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM": null
+
+2023-06-24 23:06:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("step-login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/step-login' successfully
+
+2023-06-24 23:06:36 - [TEST_CASE][PASSED] - Test Cases/step-login: Test Cases/step-login
+
+2023-06-24 23:06:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-24 23:06:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-24 23:06:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-24 23:06:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-24 23:06:37 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-06-24 23:06:40 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-06-24 23:06:40 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/home_page/labelCURAHealthcareService"), 0): Object 'Object Repository/Page_CURA Healthcare Service/home_page/labelCURAHealthcareService' is present
+
+2023-06-24 23:06:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:06:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/home_page/labelCURAHealthcareService' is present
+
+2023-06-24 23:06:41 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/home_page/labelWeCareAboutYourHealth"), 0): Object 'Object Repository/Page_CURA Healthcare Service/home_page/labelWeCareAboutYourHealth' is present
+
+2023-06-24 23:06:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:06:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/home_page/labelWeCareAboutYourHealth' is present
+
+2023-06-24 23:06:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/home_page/buttonMenuToggle")): Object: 'Object Repository/Page_CURA Healthcare Service/home_page/buttonMenuToggle' is clicked on
+
+2023-06-24 23:06:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/home_page/buttonMenuToggle' is clicked on
+
+2023-06-24 23:06:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/home_page/hyperlinkLogin")): Object: 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogin' is clicked on
+
+2023-06-24 23:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogin' is clicked on
+
+2023-06-24 23:06:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/login_page/labelLogin"), 0): Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelLogin' is present
+
+2023-06-24 23:06:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:06:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelLogin' is present
+
+2023-06-24 23:06:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/login_page/labelPleaseLoginToMakeAppointment"), 0): Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelPleaseLoginToMakeAppointment' is present
+
+2023-06-24 23:06:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:06:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelPleaseLoginToMakeAppointment' is present
+
+2023-06-24 23:06:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/login_page/buttonLogin"), 0): Object 'Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin' is present
+
+2023-06-24 23:06:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:06:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin' is present
+
+2023-06-24 23:06:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/login_page/textfieldUsername"), username): Text '' is set on object 'Object Repository/Page_CURA Healthcare Service/login_page/textfieldUsername'
+
+2023-06-24 23:06:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_CURA Healthcare Service/login_page/textfieldUsername'
+
+2023-06-24 23:06:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/login_page/textfieldPassword"), password): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/login_page/textfieldPassword'
+
+2023-06-24 23:06:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/login_page/textfieldPassword'
+
+2023-06-24 23:06:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin")): Object: 'Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin' is clicked on
+
+2023-06-24 23:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin' is clicked on
+
+2023-06-24 23:06:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment' are matched.
+
+2023-06-24 23:06:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment' are matched.
+
+2023-06-24 23:06:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/step-login' successfully
+
+2023-06-24 23:06:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/login_page/labelLoginFailed"), 0): Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelLoginFailed' is present
+
+2023-06-24 23:06:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:06:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelLoginFailed' is present
+
+2023-06-24 23:06:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-24 23:06:46 - [MESSAGE][PASSED] - Browser is closed
+
+2023-06-24 23:06:46 - [TEST_STEP][PASSED] - username = "John Doe": null
+
+2023-06-24 23:06:46 - [TEST_STEP][PASSED] - password = "": null
+
+2023-06-24 23:06:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("step-login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/step-login' successfully
+
+2023-06-24 23:06:46 - [TEST_CASE][PASSED] - Test Cases/step-login: Test Cases/step-login
+
+2023-06-24 23:06:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-24 23:06:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-24 23:06:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-24 23:06:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-24 23:06:47 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-06-24 23:06:50 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-06-24 23:06:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/home_page/labelCURAHealthcareService"), 0): Object 'Object Repository/Page_CURA Healthcare Service/home_page/labelCURAHealthcareService' is present
+
+2023-06-24 23:06:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:06:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/home_page/labelCURAHealthcareService' is present
+
+2023-06-24 23:06:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/home_page/labelWeCareAboutYourHealth"), 0): Object 'Object Repository/Page_CURA Healthcare Service/home_page/labelWeCareAboutYourHealth' is present
+
+2023-06-24 23:06:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:06:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/home_page/labelWeCareAboutYourHealth' is present
+
+2023-06-24 23:06:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/home_page/buttonMenuToggle")): Object: 'Object Repository/Page_CURA Healthcare Service/home_page/buttonMenuToggle' is clicked on
+
+2023-06-24 23:06:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/home_page/buttonMenuToggle' is clicked on
+
+2023-06-24 23:06:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/home_page/hyperlinkLogin")): Object: 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogin' is clicked on
+
+2023-06-24 23:06:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogin' is clicked on
+
+2023-06-24 23:06:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/login_page/labelLogin"), 0): Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelLogin' is present
+
+2023-06-24 23:06:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:06:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelLogin' is present
+
+2023-06-24 23:06:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/login_page/labelPleaseLoginToMakeAppointment"), 0): Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelPleaseLoginToMakeAppointment' is present
+
+2023-06-24 23:06:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:06:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelPleaseLoginToMakeAppointment' is present
+
+2023-06-24 23:06:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/login_page/buttonLogin"), 0): Object 'Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin' is present
+
+2023-06-24 23:06:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:06:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin' is present
+
+2023-06-24 23:06:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/login_page/textfieldUsername"), username): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/login_page/textfieldUsername'
+
+2023-06-24 23:06:54 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/login_page/textfieldUsername'
+
+2023-06-24 23:06:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/login_page/textfieldPassword"), password): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/login_page/textfieldPassword'
+
+2023-06-24 23:06:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/login_page/textfieldPassword'
+
+2023-06-24 23:06:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin")): Object: 'Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin' is clicked on
+
+2023-06-24 23:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin' is clicked on
+
+2023-06-24 23:06:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment' are matched.
+
+2023-06-24 23:06:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment' are matched.
+
+2023-06-24 23:06:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/step-login' successfully
+
+2023-06-24 23:06:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/login_page/labelLoginFailed"), 0): Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelLoginFailed' is present
+
+2023-06-24 23:06:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:06:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelLoginFailed' is present
+
+2023-06-24 23:06:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-24 23:06:56 - [MESSAGE][PASSED] - Browser is closed
+
+2023-06-24 23:06:56 - [TEST_STEP][PASSED] - username = "popo": null
+
+2023-06-24 23:06:56 - [TEST_STEP][PASSED] - password = "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM": null
+
+2023-06-24 23:06:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("step-login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/step-login' successfully
+
+2023-06-24 23:06:56 - [TEST_CASE][PASSED] - Test Cases/step-login: Test Cases/step-login
+
+2023-06-24 23:06:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-24 23:06:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-24 23:06:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-24 23:06:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-24 23:06:57 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-06-24 23:07:00 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-06-24 23:07:00 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/home_page/labelCURAHealthcareService"), 0): Object 'Object Repository/Page_CURA Healthcare Service/home_page/labelCURAHealthcareService' is present
+
+2023-06-24 23:07:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:07:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/home_page/labelCURAHealthcareService' is present
+
+2023-06-24 23:07:00 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/home_page/labelWeCareAboutYourHealth"), 0): Object 'Object Repository/Page_CURA Healthcare Service/home_page/labelWeCareAboutYourHealth' is present
+
+2023-06-24 23:07:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:07:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/home_page/labelWeCareAboutYourHealth' is present
+
+2023-06-24 23:07:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/home_page/buttonMenuToggle")): Object: 'Object Repository/Page_CURA Healthcare Service/home_page/buttonMenuToggle' is clicked on
+
+2023-06-24 23:07:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/home_page/buttonMenuToggle' is clicked on
+
+2023-06-24 23:07:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/home_page/hyperlinkLogin")): Object: 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogin' is clicked on
+
+2023-06-24 23:07:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogin' is clicked on
+
+2023-06-24 23:07:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/login_page/labelLogin"), 0): Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelLogin' is present
+
+2023-06-24 23:07:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:07:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelLogin' is present
+
+2023-06-24 23:07:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/login_page/labelPleaseLoginToMakeAppointment"), 0): Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelPleaseLoginToMakeAppointment' is present
+
+2023-06-24 23:07:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:07:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelPleaseLoginToMakeAppointment' is present
+
+2023-06-24 23:07:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/login_page/buttonLogin"), 0): Object 'Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin' is present
+
+2023-06-24 23:07:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:07:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin' is present
+
+2023-06-24 23:07:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/login_page/textfieldUsername"), username): Text 'popo' is set on object 'Object Repository/Page_CURA Healthcare Service/login_page/textfieldUsername'
+
+2023-06-24 23:07:03 - [MESSAGE][PASSED] - Text 'popo' is set on object 'Object Repository/Page_CURA Healthcare Service/login_page/textfieldUsername'
+
+2023-06-24 23:07:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/login_page/textfieldPassword"), password): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/login_page/textfieldPassword'
+
+2023-06-24 23:07:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/login_page/textfieldPassword'
+
+2023-06-24 23:07:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin")): Object: 'Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin' is clicked on
+
+2023-06-24 23:07:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin' is clicked on
+
+2023-06-24 23:07:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment' are matched.
+
+2023-06-24 23:07:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment' are matched.
+
+2023-06-24 23:07:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/step-login' successfully
+
+2023-06-24 23:07:05 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/login_page/labelLoginFailed"), 0): Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelLoginFailed' is present
+
+2023-06-24 23:07:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:07:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelLoginFailed' is present
+
+2023-06-24 23:07:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-24 23:07:06 - [MESSAGE][PASSED] - Browser is closed
+
+2023-06-24 23:07:06 - [TEST_STEP][PASSED] - username = "John Doe": null
+
+2023-06-24 23:07:06 - [TEST_STEP][PASSED] - password = "8SQVv/p9jVScEs4/2CZsLw==": null
+
+2023-06-24 23:07:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("step-login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/step-login' successfully
+
+2023-06-24 23:07:06 - [TEST_CASE][PASSED] - Test Cases/step-login: Test Cases/step-login
+
+2023-06-24 23:07:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-24 23:07:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-24 23:07:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-24 23:07:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-24 23:07:07 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-06-24 23:07:10 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-06-24 23:07:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/home_page/labelCURAHealthcareService"), 0): Object 'Object Repository/Page_CURA Healthcare Service/home_page/labelCURAHealthcareService' is present
+
+2023-06-24 23:07:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:07:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/home_page/labelCURAHealthcareService' is present
+
+2023-06-24 23:07:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/home_page/labelWeCareAboutYourHealth"), 0): Object 'Object Repository/Page_CURA Healthcare Service/home_page/labelWeCareAboutYourHealth' is present
+
+2023-06-24 23:07:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:07:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/home_page/labelWeCareAboutYourHealth' is present
+
+2023-06-24 23:07:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/home_page/buttonMenuToggle")): Object: 'Object Repository/Page_CURA Healthcare Service/home_page/buttonMenuToggle' is clicked on
+
+2023-06-24 23:07:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/home_page/buttonMenuToggle' is clicked on
+
+2023-06-24 23:07:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/home_page/hyperlinkLogin")): Object: 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogin' is clicked on
+
+2023-06-24 23:07:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogin' is clicked on
+
+2023-06-24 23:07:12 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/login_page/labelLogin"), 0): Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelLogin' is present
+
+2023-06-24 23:07:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:07:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelLogin' is present
+
+2023-06-24 23:07:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/login_page/labelPleaseLoginToMakeAppointment"), 0): Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelPleaseLoginToMakeAppointment' is present
+
+2023-06-24 23:07:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:07:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelPleaseLoginToMakeAppointment' is present
+
+2023-06-24 23:07:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/login_page/buttonLogin"), 0): Object 'Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin' is present
+
+2023-06-24 23:07:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:07:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin' is present
+
+2023-06-24 23:07:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/login_page/textfieldUsername"), username): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/login_page/textfieldUsername'
+
+2023-06-24 23:07:14 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/login_page/textfieldUsername'
+
+2023-06-24 23:07:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/login_page/textfieldPassword"), password): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/login_page/textfieldPassword'
+
+2023-06-24 23:07:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/login_page/textfieldPassword'
+
+2023-06-24 23:07:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin")): Object: 'Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin' is clicked on
+
+2023-06-24 23:07:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin' is clicked on
+
+2023-06-24 23:07:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment' are matched.
+
+2023-06-24 23:07:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment' are matched.
+
+2023-06-24 23:07:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/step-login' successfully
+
+2023-06-24 23:07:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/login_page/labelLoginFailed"), 0): Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelLoginFailed' is present
+
+2023-06-24 23:07:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:07:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelLoginFailed' is present
+
+2023-06-24 23:07:16 - [TEST_STEP][PASSED] - Finally: Browser is closed
+
+2023-06-24 23:07:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-24 23:07:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SC-Login-Logout/TC02-logout-success" time="43.719" classname="Test Cases/SC-Login-Logout/TC02-logout-success" status="FAILED">
+         <failure type="FAILED" message="Test Cases/SC-Login-Logout/TC02-logout-success FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC02-logout-success.run(TC02-logout-success:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1687622766033.run(TempTestSuite1687622766033.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogout' located by '//*[@href = 'authenticate.php?logout' and (text() = 'Logout' or . = 'Logout')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-06-24 23:07:16 - [TEST_CASE][FAILED] - Test Cases/SC-Login-Logout/TC02-logout-success: Test Cases/SC-Login-Logout/TC02-logout-success FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC02-logout-success.run(TC02-logout-success:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1687622766033.run(TempTestSuite1687622766033.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogout' located by '//*[@href = 'authenticate.php?logout' and (text() = 'Logout' or . = 'Logout')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-06-24 23:07:16 - [TEST_STEP][FAILED] - try: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogout' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC02-logout-success.run(TC02-logout-success:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1687622766033.run(TempTestSuite1687622766033.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogout' located by '//*[@href = 'authenticate.php?logout' and (text() = 'Logout' or . = 'Logout')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1687611076115.run(Script1687611076115.groovy:28)
+	... 13 more
+)
+
+2023-06-24 23:07:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("step-login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/step-login' successfully
+
+2023-06-24 23:07:16 - [TEST_CASE][PASSED] - Test Cases/step-login: Test Cases/step-login
+
+2023-06-24 23:07:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-24 23:07:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-24 23:07:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-24 23:07:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-24 23:07:17 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-06-24 23:07:21 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-06-24 23:07:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/home_page/labelCURAHealthcareService"), 0): Object 'Object Repository/Page_CURA Healthcare Service/home_page/labelCURAHealthcareService' is present
+
+2023-06-24 23:07:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:07:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/home_page/labelCURAHealthcareService' is present
+
+2023-06-24 23:07:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/home_page/labelWeCareAboutYourHealth"), 0): Object 'Object Repository/Page_CURA Healthcare Service/home_page/labelWeCareAboutYourHealth' is present
+
+2023-06-24 23:07:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:07:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/home_page/labelWeCareAboutYourHealth' is present
+
+2023-06-24 23:07:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/home_page/buttonMenuToggle")): Object: 'Object Repository/Page_CURA Healthcare Service/home_page/buttonMenuToggle' is clicked on
+
+2023-06-24 23:07:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/home_page/buttonMenuToggle' is clicked on
+
+2023-06-24 23:07:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/home_page/hyperlinkLogin")): Object: 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogin' is clicked on
+
+2023-06-24 23:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogin' is clicked on
+
+2023-06-24 23:07:23 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/login_page/labelLogin"), 0): Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelLogin' is present
+
+2023-06-24 23:07:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:07:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelLogin' is present
+
+2023-06-24 23:07:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/login_page/labelPleaseLoginToMakeAppointment"), 0): Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelPleaseLoginToMakeAppointment' is present
+
+2023-06-24 23:07:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:07:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/login_page/labelPleaseLoginToMakeAppointment' is present
+
+2023-06-24 23:07:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/login_page/buttonLogin"), 0): Object 'Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin' is present
+
+2023-06-24 23:07:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-06-24 23:07:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin' is present
+
+2023-06-24 23:07:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/login_page/textfieldUsername"), username): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/login_page/textfieldUsername'
+
+2023-06-24 23:07:25 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/login_page/textfieldUsername'
+
+2023-06-24 23:07:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/login_page/textfieldPassword"), password): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/login_page/textfieldPassword'
+
+2023-06-24 23:07:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/login_page/textfieldPassword'
+
+2023-06-24 23:07:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin")): Object: 'Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin' is clicked on
+
+2023-06-24 23:07:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/login_page/buttonLogin' is clicked on
+
+2023-06-24 23:07:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment' are matched.
+
+2023-06-24 23:07:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment' are matched.
+
+2023-06-24 23:07:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/step-login' successfully
+
+2023-06-24 23:07:26 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment' are matched.
+
+2023-06-24 23:07:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/make_appointment_page/labelMakeAppointment' are matched.
+
+2023-06-24 23:07:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/home_page/buttonMenuToggle")): Object: 'Object Repository/Page_CURA Healthcare Service/home_page/buttonMenuToggle' is clicked on
+
+2023-06-24 23:07:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/home_page/buttonMenuToggle' is clicked on
+
+2023-06-24 23:07:27 - [TEST_STEP][FAILED] - click(findTestObject("Page_CURA Healthcare Service/home_page/hyperlinkLogout")): Unable to click on object 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogout' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC02-logout-success.run(TC02-logout-success:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1687622766033.run(TempTestSuite1687622766033.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogout' located by '//*[@href = 'authenticate.php?logout' and (text() = 'Logout' or . = 'Logout')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1687611076115.run(Script1687611076115.groovy:28)
+	... 13 more
+)
+
+2023-06-24 23:07:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@href = 'authenticate.php?logout' and (text() = 'Logout' or . = 'Logout')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-24 23:08:00 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogout' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC02-logout-success.run(TC02-logout-success:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1687622766033.run(TempTestSuite1687622766033.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogout' located by '//*[@href = 'authenticate.php?logout' and (text() = 'Logout' or . = 'Logout')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1687611076115.run(Script1687611076115.groovy:28)
+	... 13 more
+)
+[[ATTACHMENT|/Users/mitapitriaheni/git/test-msbu/Reports/20230624_230606/TS-Login/20230624_230606/1687622879454.png]]
+
+2023-06-24 23:08:00 - [TEST_STEP][PASSED] - Finally: Browser is closed
+
+2023-06-24 23:08:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-24 23:08:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2023-06-24 23:07:16 - [TEST_CASE][FAILED] - Test Cases/SC-Login-Logout/TC02-logout-success: Test Cases/SC-Login-Logout/TC02-logout-success FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC02-logout-success.run(TC02-logout-success:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1687622766033.run(TempTestSuite1687622766033.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogout' located by '//*[@href = 'authenticate.php?logout' and (text() = 'Logout' or . = 'Logout')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-24 23:06:20 - [TEST_SUITE][FAILED] - TS-Login: Test Cases/SC-Login-Logout/TC02-logout-success FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC02-logout-success.run(TC02-logout-success:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1687622766033.run(TempTestSuite1687622766033.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogout' located by '//*[@href = 'authenticate.php?logout' and (text() = 'Logout' or . = 'Logout')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-06-24 23:06:20 - [TEST_SUITE][FAILED] - TS-Login: Test Cases/SC-Login-Logout/TC02-logout-success FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogout'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC02-logout-success.run(TC02-logout-success:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1687622766033.run(TempTestSuite1687622766033.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_CURA Healthcare Service/home_page/hyperlinkLogout' located by '//*[@href = 'authenticate.php?logout' and (text() = 'Logout' or . = 'Logout')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

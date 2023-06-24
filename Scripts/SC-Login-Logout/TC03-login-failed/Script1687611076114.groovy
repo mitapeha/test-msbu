@@ -20,7 +20,8 @@ import org.openqa.selenium.Keys as Keys
 try {
     // blank username
     GlobalVariable.username = ''
-	GlobalVariable.password = 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'
+
+    GlobalVariable.password = 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'
 
     WebUI.callTestCase(findTestCase('step-login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -29,7 +30,8 @@ try {
     WebUI.closeBrowser()
 
     // blank password
-	GlobalVariable.username = 'John Doe'
+    GlobalVariable.username = 'John Doe'
+
     GlobalVariable.password = ''
 
     WebUI.callTestCase(findTestCase('step-login'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -40,7 +42,8 @@ try {
 
     // wrong username
     GlobalVariable.username = 'popo'
-	GlobalVariable.password = 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'
+
+    GlobalVariable.password = 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'
 
     WebUI.callTestCase(findTestCase('step-login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -49,7 +52,8 @@ try {
     WebUI.closeBrowser()
 
     // wrong password
-	GlobalVariable.username = 'John Doe'
+    GlobalVariable.username = 'John Doe'
+
     GlobalVariable.password = '8SQVv/p9jVScEs4/2CZsLw=='
 
     WebUI.callTestCase(findTestCase('step-login'), [:], FailureHandling.STOP_ON_FAILURE)
