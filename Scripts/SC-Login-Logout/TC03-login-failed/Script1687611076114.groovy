@@ -50,7 +50,7 @@ try {
 
     // wrong password
 	GlobalVariable.username = 'John Doe'
-    GlobalVariable.password = 'ThisIsNot'
+    GlobalVariable.password = '8SQVv/p9jVScEs4/2CZsLw=='
 
     WebUI.callTestCase(findTestCase('step-login'), [:], FailureHandling.STOP_ON_FAILURE)
 
